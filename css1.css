@@ -1,0 +1,187 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+@media (max-width : 500px ) 
+
+{ 
+
+	#bonjour {display : none;}
+   
+
+}
+
+
+        html, body, pre, code, kbd, samp {
+            font-family: 'Press Start 2P', cursive;
+                }
+body{
+
+    background-color: #46efea;
+opacity: 0.8;
+background-image: linear-gradient(-45deg, #46efea, #46efea 50%, #448a89 50%, #448a89);
+background-size: 4px 4px;
+}
+
+                #container-sm{
+        max-width: 900px;
+	  margin: auto;
+                 margin-top: 90px;
+  margin-bottom: 90px;
+  
+    }  
+
+ul{
+    text-align: center ;
+}
+
+
+
+footer{
+    background-color: grey;
+
+}
+
+
+
+    .site{
+        background-color: grey;
+    }
+/**
+ * Navigation
+ */
+ #navigation ul {
+	margin: 0 1em;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#navigation ul li {
+	margin: 0 1em 0 0;
+	float: left;
+	list-style-type: none;
+}
+
+#navigation ul li a {
+	display: block;
+	padding: .2em .1em;
+	color: #ff0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigation ul li a:hover:not(.active),
+#navigation ul li a:focus:not(.active) {
+	background: #ff0;
+	color: #008;
+}
+
+#navigation ul li a.active,
+#navigation ul li a.active:hover,
+#navigation ul li a.active:focus {
+	background: #ff0;
+	color: #f00;
+}
+
+#navigation ul li a:before {
+	content: "[";
+}
+
+#navigation ul li a:after  {
+	content: "]";
+}
+
+@media (max-width: 768px) {
+	#navigation ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	#navigation ul li {
+		display: block;
+		margin: 0;
+		float: none;
+	}
+
+	#navigation ul li a {
+		padding: 1em;
+		color: #000;
+	}
+
+	#navigation {
+		background: #080;
+	}
+
+	#navigation ul li a:hover:not(.active),
+	#navigation ul li a:focus:not(.active) {
+		background: transparent;
+		color: #0f0;
+	}
+
+	#navigation ul li a.active,
+	#navigation ul li a.active:hover,
+	#navigation ul li a.active:focus {
+		background: #000;
+		color: #080;
+	}
+}
+
+h1{
+              color:azure;
+font-family: 'VT323', monospace;	
+              font-size:80px;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #5433FF, #20BDFF,#A5FECB);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  
+          }
+    
+
+
+          .img-fluid{
+          animation: float 2s infinite ease;
+
+    }
+    @keyframes float {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+
+
+
+.img-fluid{
+    transform: translate(0, 10px) 
+
+
+}
+
+
+
+.img-fluid:hover {
+	cursor: pointer;
+	background-color: yellow;
+}
+
