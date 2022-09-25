@@ -26,10 +26,10 @@ case "1":
 text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : 3 mois de socle en integration web + api Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
 break;
 case "2":
-text = "Vous pouvez me joindre sur Linkedin, sur mon adresse mail c.saint.charles.csc@gmail.com";
+text = "Je suis un autodidacte issue de la génération Y, ayant une bonne plasticité neuronale j'aime apprendre de nouvelles choses. ";
 break;
 case "3":
-text = "Je parle, sait lire et ecrire en anglais, je maitrise le pack office, Photoshop est mon ami. Je suis à l'aise dans la gestion de projet, je sais faire preuve de creativité, j'aime bien analyser les choses et livrer des preconisations (fan de benchmark et powerpoint) "
+text = "Je parle et sait lire et écrire en anglais, je maitrise le pack office, Photoshop est mon ami. Je suis à l'aise dans la gestion de projet, je sais faire preuve de creativité, j'aime bien analyser les choses et livrer des preconisations (fan de benchmark et powerpoint), le travail en équipe ne me fait pas peur. "
 break;
 default:
 text = "mauvais choix! recommence";
