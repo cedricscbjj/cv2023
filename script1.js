@@ -57,7 +57,7 @@ function imagefun() {
         }
         else if (Image_Id.src.match("IMGTEST1.png")) {
             Image_Id.src = "IMGTEST2.png";
-            talk.innerHTML= 'Cessez de cliquer sur cette image! Decouvrez mon cv dans les liens plus bas, merci!'      ;
+            talk.innerHTML= 'Cessez de cliquer sur cette image! Veuillez faire un tour sur mon portfolio svp !'      ;
         }
      else
      
@@ -74,7 +74,7 @@ function imagefun() {
  function myTimeout2() {
      
 
-window.location.href = "https://cedricscbjj.github.io/resume2/cvdigital2.html";
+window.location.href = "https://cedricscbjj.github.io/cv2023/aboutme.html";
  }
 
 
