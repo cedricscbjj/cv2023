@@ -32,7 +32,7 @@ case "3":
 text = "Je parle et sait lire et écrire en anglais, je maitrise le pack office, Photoshop est mon ami. Je suis à l'aise dans la gestion de projet, je sais faire preuve de creativité, j'aime bien analyser les choses et livrer des preconisations (fan de benchmark et powerpoint), le travail en équipe ne me fait pas peur. "
 break;
 default:
-text = "mauvais choix! recommence";
+text = "Mauvais choix! recommence";
 
 
 
@@ -53,7 +53,7 @@ function imagefun() {
         var Image_Id = document.getElementById('getImage');
         if (Image_Id.src.match("IMGTEST.png")) {
             Image_Id.src = "IMGTEST1.png";
-            talk.innerHTML= 'Pour me joindre ca se passe sur c.saint.charles.csc@gmail.com ou sinon au 0626362369!' ; 
+            talk.innerHTML= 'Ma page utilise des cookies pour faire des statistiques sur le nombre de visite, veuillez vous rendre sur la pokeball en bas pour pour plus avoir des infos sur la politique de confidentialité' ; 
         }
         else if (Image_Id.src.match("IMGTEST1.png")) {
             Image_Id.src = "IMGTEST2.png";
@@ -90,5 +90,5 @@ const d = new Date();
 let h = addZero(d.getHours());
 let m = addZero(d.getMinutes());
 let hour = h + ":" + m ;
-document.getElementById("talk").innerHTML = "Hello! Il est actuellement" + " " + hour + " "+ "et vous etes sur ma page personnel! Posez moi une question et cliquez sur la pokeball par rapport aux cookies!";
+document.getElementById("talk").innerHTML = "Hello! Il est actuellement" + " " + hour + " "+ "et vous etes sur ma page personnel! Mon CV se trouve tout en haut! Posez moi une question et cliquez sur la pokeball par rapport aux cookies!";
 
