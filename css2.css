@@ -146,7 +146,13 @@ font-family: 'VT323', monospace;
 
      
 
-
+		  .cv{
+			transition: transform 350ms;
+	   }
+	
+		.cv:hover {
+ transform: translateY(-20px);
+}
 
 
 
