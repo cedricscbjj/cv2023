@@ -20,7 +20,7 @@ const selection = document.getElementById("darkselect").value;
 
 switch (selection){
 case "0":
-text ="Voici une liste non exhaustive des métiers que j'ai exercé depuis mon existence: vendeur pret à porter sportif, manutentionnaire, assistant e-commerce, community manager, chargé clientele logistique, assistant chef de projet,  ";
+text ="Voici une liste non exhaustive des métiers que j'ai exercé depuis mon existence: vendeur pret à porter sportif, manutentionnaire, assistant e-commerce, community manager, chargé clientele logistique, assistant chef de projet et prochainement...developpeur web! ";
 break;
 case "1":
 text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : integration web + API Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
