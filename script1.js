@@ -23,7 +23,7 @@ case "0":
 text ="Voici une liste non exhaustive des métiers que j'ai exercé depuis mon existence: vendeur pret à porter sportif, manutentionnaire, assistant e-commerce, community manager, chargé clientele logistique, assistant chef de projet et prochainement...developpeur web! ";
 break;
 case "1":
-text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : integration web + API Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
+text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé à apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : integration web + API Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
 break;
 case "2":
 text = "Je suis un autodidacte issue de la génération Y, ayant une bonne plasticité neuronale j'aime apprendre de nouvelles choses et j'aime les projets experimentaux ";
