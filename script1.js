@@ -20,19 +20,19 @@ const selection = document.getElementById("darkselect").value;
 
 switch (selection){
 case "0":
-text ="J'ai été chef de projet web en 2013 dans un espace de coworking, en 2014 j'ai été assistant e-commerce chez GO Sport, j'ai évolué dans les services clienteles à Westwing et Tnt. Depuis 2016 je suis à Chronopost en tant que chargé import export... et je suis dev à présent! ";
+text ="Voici une liste non exhaustive des métiers que j'ai exercé depuis mon existence: vendeur pret à porter sportif, manutentionnaire, assistant e-commerce, community manager, chargé clientele logistique, assistant chef de projet,  ";
 break;
 case "1":
-text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : 3 mois de socle en integration web + api Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
+text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : integration web + API Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
 break;
 case "2":
-text = "Je suis un autodidacte issue de la génération Y, ayant une bonne plasticité neuronale j'aime apprendre de nouvelles choses. ";
+text = "Je suis un autodidacte issue de la génération Y, ayant une bonne plasticité neuronale j'aime apprendre de nouvelles choses et j'aime les projets experimentaux ";
 break;
 case "3":
 text = "Je parle et sait lire et écrire en anglais, je maitrise le pack office, Photoshop est mon ami. Je suis à l'aise dans la gestion de projet, je sais faire preuve de creativité, j'aime bien analyser les choses et livrer des preconisations (fan de benchmark et powerpoint), le travail en équipe ne me fait pas peur. "
 break;
 default:
-text = "Mauvais choix! recommence";
+text = "Mauvais choix! Recommence!";
 
 
 
@@ -57,7 +57,7 @@ function imagefun() {
         }
         else if (Image_Id.src.match("IMGTEST1.png")) {
             Image_Id.src = "IMGTEST2.png";
-            talk.innerHTML= 'Cessez de cliquer sur cette image! Veuillez faire un tour sur mon portfolio svp !'      ;
+            talk.innerHTML= 'Cessez de cliquer sur cette image! Veuillez faire un tour sur mon portfolio svp  !'      ;
         }
      else
      
@@ -74,7 +74,7 @@ function imagefun() {
  function myTimeout2() {
      
 
-window.location.href = "https://cedricscbjj.github.io/cv2023/aboutme.html";
+window.location.href = "https://cedricscbjj.github.io/cv2023/cv.html";
  }
 
 
@@ -90,5 +90,5 @@ const d = new Date();
 let h = addZero(d.getHours());
 let m = addZero(d.getMinutes());
 let hour = h + ":" + m ;
-document.getElementById("talk").innerHTML = "Hello! Il est actuellement" + " " + hour + " "+ "et vous etes sur ma page personnel! Mon CV se trouve tout en haut! Posez moi une question et cliquez sur la pokeball par rapport aux cookies!";
+document.getElementById("talk").innerHTML = "Hello! Il est actuellement" + " " + hour + " "+ "et vous etes sur ma page personnel! Mon CV version papier se trouve dans la partie Curriculum Vitae, vous pouvez aller le télécharger! Ma page utilise des cookies, cliquez sur la pokéball en bas pour plus d'informations!";
 
