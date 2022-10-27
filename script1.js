@@ -20,16 +20,16 @@ const selection = document.getElementById("darkselect").value;
 
 switch (selection){
 case "0":
-text ="Voici une liste non exhaustive des métiers que j'ai exercé depuis mon existence: vendeur pret à porter sportif, manutentionnaire, assistant e-commerce, community manager, chargé clientele logistique, assistant chef de projet et prochainement...developpeur web! ";
+text ="Je suis un développeur informatique qui a démarré l'apprentissage du code informatique en autodidacte sur Youtube, à présent je suis développeur web front-end et back-end";
 break;
 case "1":
-text="J'ai validé mon master 1 Administration et gestion des entreprises en 2014, j'ai commencé à apprendre en autodidacte le HTML, CSS (merci youtube!). J'ai entamé ensuite une formation de 6 mois chez O'clock : integration web + API Rest + data et Git, 1 mois de specialisation DATA et 1 mois de projet en equipe";
+text="J'aime créer, rever, apprendre et je suis tres curieux, je me suis donc naturellement tourné vers le developpement informatique qui permet de faire vivre virtuellement mon imaginaire";
 break;
 case "2":
-text = "Je suis un autodidacte issue de la génération Y, ayant une bonne plasticité neuronale j'aime apprendre de nouvelles choses et j'aime les projets experimentaux ";
+text = "La trilogie du seigneur des Anneaux, Matrix, Pulp Fiction, La fureur du Dragon, Terminator II, Starship Troopers, Avengers: Infinity war, et tant d'autres.. ";
 break;
 case "3":
-text = "Je parle et sait lire et écrire en anglais, je maitrise le pack office, Photoshop est mon ami. Je suis à l'aise dans la gestion de projet, je sais faire preuve de creativité, j'aime bien analyser les choses et livrer des preconisations (fan de benchmark et powerpoint), le travail en équipe ne me fait pas peur. "
+text = "Tout d'abord Les fourmis de Bernard Werber, ensuite..Psychologie des Foules de Gustave Lebon, Propaganda d'Edwards Bernays,  Bel-Ami de Maupassant et... A rebours de Joris Karl Huysmans"
 break;
 default:
 text = "Mauvais choix! Recommence!";
