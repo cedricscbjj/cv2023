@@ -20,10 +20,10 @@ const selection = document.getElementById("darkselect").value;
 
 switch (selection){
 case "0":
-text ="Je suis un développeur informatique qui a démarré l'apprentissage du code informatique en autodidacte sur Youtube, à présent je suis développeur web front-end et back-end";
+text ="Je suis un dev qui commencé en autodidacte, j'ai ensuite fait une formation aupres de l'ecole O'clock en mode full stack!!";
 break;
 case "1":
-text="J'aime créer, rever, apprendre et je suis tres curieux, je me suis donc naturellement tourné vers le developpement informatique qui permet de faire vivre virtuellement mon imaginaire";
+text="J'aime créer et je suis tres curieux, je me suis donc naturellement tourné vers le developpement informatique qui me permet de donner virtuellement vie à mon imaginaire";
 break;
 case "2":
 text = "La trilogie du seigneur des Anneaux, Matrix, Pulp Fiction, La fureur du Dragon, Terminator II, Starship Troopers, Avengers: Infinity war, et tant d'autres.. ";
@@ -53,11 +53,11 @@ function imagefun() {
         var Image_Id = document.getElementById('getImage');
         if (Image_Id.src.match("IMGTEST.png")) {
             Image_Id.src = "IMGTEST1.png";
-            talk.innerHTML= 'Ma page utilise des cookies pour faire des statistiques sur le nombre de visite, veuillez vous rendre sur la pokeball en bas pour pour plus avoir des infos sur la politique de confidentialité' ; 
+            talk.innerHTML= 'wow! tu sais cliquer! bravo! ' ; 
         }
         else if (Image_Id.src.match("IMGTEST1.png")) {
             Image_Id.src = "IMGTEST2.png";
-            talk.innerHTML= 'Cessez de cliquer sur cette image! Veuillez faire un tour sur mon portfolio svp  !'      ;
+            talk.innerHTML= 'Cessez de cliquer sur cette image! Veuillez faire un tour sur mon portfolio (pas terminé) svp  !'      ;
         }
      else
      
